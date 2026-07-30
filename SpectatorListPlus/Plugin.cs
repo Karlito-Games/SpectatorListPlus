@@ -24,6 +24,7 @@ namespace SpectatorListPlus
             PluginConfig = Config;
             CustomHandlersManager.RegisterEventsHandler(Events);
             SaveConfig();
+            
         }
 
         public override void Disable()
